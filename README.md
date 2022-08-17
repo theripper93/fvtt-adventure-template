@@ -2,14 +2,21 @@
 
 ### Chose an ID
 
-You will need to set your adventure id in multiple spots, for this example let's assume we chose `lost-mines-3d` as our adventure id. When you use this repository as a template, make sure to name your cloned repostiory the same as the Adventure id.
+The adventure id will be needed in multiple spots, once you have chosen the id (eg `lost-mines-3d`) contact me on discord and i'll create a clone of this repository with the aropriate data setup with the id chosen.
 
 ### Clone this repository
 
+Once the repository for your adventure is ready, you'll need to clone it from gihub. It's suggested to use VS CODE for ease of use. Once you cloned the repository, select your foundry modules folder as the target of the clone. If all went well, after restarting Foundry, you should see the Adventure Template in your modules list.
 
+### Setting up the manifest.json
 
-After cloning this repository, you will need to set your adventure id in multiple spots, for this example let's assume we chose `lost-mines-3d` as our module id. It's suggested that the repository name matches the module id.
+In VSCODE (or other editor) select the manifest.json file.
 
-in the `module.json` file, change `"id": "fvtt-adventure-template",` to `"id": "lost-mines-3d",`
-for the module to be recognized by foundry, the folder name must match the id. If you have named the repository with the adventure id, this will be done automatically when you pull the repository from github.
+Change `"title": "Adventure Template",` with `"title": "Lost Mines: a 3D Adventure"`
+
+Change `"description": "Meant to be played with 3D Canvas. This is a short description of the adventure!",` to `"description": "Meant to be played with 3D Canvas. Delve into the Lost Mines to uncover ancient secrets and forgotten artifacts."`
+
+Under `"authors"` fill in the sample author filed with your information.
+
+Under `"packs"` change `"label": "Adventure Template",` to `"label": "Lost Mines: a 3D Adventure",`
 
