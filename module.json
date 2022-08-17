@@ -1,7 +1,7 @@
 {
-    "title": "name",
-    "description": "desc",
-    "id": "modid",
+    "title": "Adventure Title Here: A 3D Adventure",
+    "description": "Meant to be played with 3D Canvas. This is a short description of the adventure!",
+    "id": "fvtt-adventure-template",
     "version": "1.0",
     "authors": [
       {
@@ -11,35 +11,25 @@
       }
     ],
     "languages": [
-      {
-        "lang": "en",
-        "name": "English",
-        "path": "languages/en.json"
-      }
-    ],
-    "scripts": [
-        "scripts/config.js",
-        "scripts/main.js",
-        "scripts/module.js"
     ],
     "esmodules": [
     ],
     "styles": [
-      "styles/module.css"
     ],
     "packs": [
+      {
+        "name": "adventure",
+        "label": "Adventure Template",
+        "path": "assets/adventure.db",
+        "type": "Adventure",
+        "system": "dnd5e",
+        "private": true
+      }
     ],
     "url": "https://github.com/theripper93/Levels",
     "manifest": "https://github.com/theripper93/Levels/releases/latest/download/module.json",
     "download": "https://github.com/theripper93/Levels/releases/download/0.9.7.3/module.zip",
     "relationships": {
-      "requires": [
-        {
-          "id": "lib-wrapper",
-          "type": "module",
-          "compatibility": {}
-        }
-      ]
     },
     "compatibility": {
       "minimum": "10",
