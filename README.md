@@ -12,9 +12,9 @@ Once the repository for your adventure is ready, you'll need to clone it from gi
 
 In VSCODE (or other editor) select the manifest.json file. We are gonna use examples as if we were setting up the "Lost Mines" adventure.
 
-Change `"title": "Adventure Template",` with `"title": "Lost Mines: a 3D Adventure"`
+Change `"title": "Adventure Template",` with `"title": "Lost Mines: a 3D Adventure",`
 
-Change `"description": "This is a short description of the adventure! Meant to be played with 3D Canvas.",` to `"description": "Delve into the Lost Mines to uncover ancient secrets and forgotten artifacts. Meant to be played with 3D Canvas."`
+Change `"description": "This is a short description of the adventure! Meant to be played with 3D Canvas.",` to `"description": "Delve into the Lost Mines to uncover ancient secrets and forgotten artifacts. Meant to be played with 3D Canvas.",`
 
 Under `"authors"` fill in the sample author filed with your information.
 
